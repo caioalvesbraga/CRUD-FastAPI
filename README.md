@@ -1,4 +1,4 @@
-# QuadrinhosAPI com FastAPI
+# API de Quadrinhos com FastAPI
 
 Este projeto tem o objetivo de aprofundar os meus conhecimentos no uso do framework python FastAPI. A aplicação consiste numa API onde é possível realizar operações
 CRUD (Create, Read, Update e Delete) com a finalidade de fazer a organização dos quadrinhos que você possui e salvar em um banco de dados.
