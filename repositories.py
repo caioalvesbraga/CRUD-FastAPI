@@ -16,6 +16,10 @@ class QuadrinhoRepository:
         db.commit()
         return quadrinho
 
+    @staticmethod
+    def find_by_id(db : Session, id : int) -> Quadrinho:
+        return db.query(Quadrinho).filter(Quadrinho.id == id).first()
+
     @staticmethod 
     def exists_by_id(db : Session, id : int) -> bool:
         return db.query(Quadrinho).filter(Quadrinho.id == id).first() is not None
